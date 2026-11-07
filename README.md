@@ -12,7 +12,7 @@ Ce qui n'a pas pu être vérifié est écrit « non vérifié » dans le rapport
 
 | Dossier | Contenu |
 |---|---|
-| `site/` | Le site prêt à publier : `index.html` (historique par année et par mois) et `rapports/AAAA-MM.html` |
+| `site/` | Le site : **une seule page**, `site/index.html` (le rapport du mois, un seul fichier HTML). L'historique, c'est l'historique git de ce fichier. |
 | `data/` | **Un fichier JSON par type de données**, réutilisables (voir `data/README.md`) |
 | `src/` | Le code Python qui calcule les données et fabrique le rapport (aucune dépendance externe) |
 
@@ -22,8 +22,7 @@ Ce qui n'a pas pu être vérifié est écrit « non vérifié » dans le rapport
 python3 src/prepare_hatvp.py        # télécharge le registre HATVP (~140 Mo) et recalcule data/hatvp_*.json
 python3 src/prepare_assemblee.py    # télécharge l'open data de l'Assemblée et recalcule data/assemblee_*.json
 python3 src/build_report.py         # assemble les blocs du rapport (build/blocks.json)
-python3 src/make_html.py            # produit build/rapport.html (un seul fichier HTML, SVG intégré)
-python3 src/make_site.py 2026-10 build/rapport.html   # range le rapport dans site/ et régénère l'historique
+python3 src/make_html.py site/index.html   # produit la page unique (un seul fichier HTML, SVG intégré)
 ```
 
 Les données `gouvernement_ministres.json` et `classements_internationaux.json` sont tenues à la main : elles sont à
@@ -41,3 +40,7 @@ version tableau.
 Code : MIT (voir `LICENSE`). Les données viennent de sources publiques : respecter leurs licences d'origine
 (Licence Ouverte pour les données de l'État, conditions de l'Assemblée nationale, de la HATVP, etc.).
 Ce projet n'est affilié à aucune institution.
+
+## Cache et historique
+
+Le dépôt git sert de cache : les fichiers de `data/` sont lus d'abord, et un script ne retélécharge une source (par exemple les ~140 Mo de la HATVP) que si nécessaire. Chaque mois, un commit met à jour `data/` et `site/index.html` ; les rapports passés se retrouvent dans l'historique git.
