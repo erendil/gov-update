@@ -1,0 +1,218 @@
+{
+ "meta": {
+  "description": "Membres du gouvernement (octobre 2026) : poste, parti, année de naissance, parcours, activité du mois",
+  "source": "https://www.info.gouv.fr/ (composition du gouvernement)",
+  "licence": "Texte rédigé pour ce projet ; faits à recouper avec les pages officielles",
+  "genere": "2026-11-07",
+  "avertissement": "Les champs « parcours » et « octobre » sont des résumés rédigés à la main, non recoupés ligne à ligne avec une page officielle."
+ },
+ "data": [
+  {
+   "nom": "Sébastien Lecornu",
+   "role": "Premier ministre",
+   "parti": "Renaissance",
+   "ne": 1986,
+   "parcours": "Né à Vernon (Eure). Élu local dès 19 ans, ministre sans interruption depuis 2017 (Collectivités, Outre-mer, puis Armées de 2022 à 2025). Nommé Premier ministre le 9 septembre 2025.",
+   "octobre": "A présenté le budget 2027, puis a laissé l'Assemblée le rejeter sans utiliser le 49.3. Annonces du 7 octobre (lycéens, carburants, agriculteurs).",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Laurent Panifous",
+   "role": "Ministre délégué, Relations avec le Parlement",
+   "parti": "LIOT (indépendants)",
+   "ne": 1976,
+   "parcours": "Né à Foix (Ariège). Maire de Foix, puis député de l'Ariège depuis 2024, dans le petit groupe LIOT. Chargé de négocier avec les groupes parlementaires.",
+   "octobre": "En première ligne pour chercher une majorité introuvable sur le budget.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Maud Bregeon",
+   "role": "Porte-parole du Gouvernement, ministre déléguée à l'Énergie",
+   "parti": "Renaissance",
+   "ne": 1991,
+   "parcours": "Née à Poitiers. Ingénieure dans le nucléaire (EDF), députée des Hauts-de-Seine depuis 2022. Porte-parole depuis octobre 2025, chargée de l'Énergie depuis février 2026.",
+   "octobre": "A présenté le projet de loi sur le secteur nucléaire au Conseil des ministres du 14 octobre.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Aurore Bergé",
+   "role": "Ministre déléguée, Égalité femmes-hommes",
+   "parti": "Renaissance",
+   "ne": 1986,
+   "parcours": "Députée des Yvelines depuis 2017, ancienne présidente du groupe macroniste à l'Assemblée. Ministre depuis 2023 (Solidarités, puis Égalité).",
+   "octobre": "Pas de texte en discussion ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Laurent Nuñez",
+   "role": "Ministre de l'Intérieur",
+   "parti": "Renaissance",
+   "ne": 1964,
+   "parcours": "Haut fonctionnaire : préfet de police de Paris (2022-2025), auparavant secrétaire d'État à l'Intérieur et coordonnateur du renseignement. Pas élu, nommé pour son expérience.",
+   "octobre": "Porte la loi contre les ingérences étrangères (votée au Sénat le 20 octobre) et celle sur la réparation des dégradations urbaines (27 octobre).",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Catherine Vautrin",
+   "role": "Ministre des Armées et des Anciens combattants",
+   "parti": "Renaissance (ex-LR)",
+   "ne": 1960,
+   "parcours": "Ancienne députée de la Marne et présidente du Grand Reims. Ministre du Travail et de la Santé en 2024-2025, puis des Armées.",
+   "octobre": "Seul budget en hausse dans le projet 2027 : +6,5 Md€ pour la Défense.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Gérald Darmanin",
+   "role": "Garde des Sceaux, ministre de la Justice",
+   "parti": "Divers droite (ex-LR, ex-Renaissance)",
+   "ne": 1982,
+   "parcours": "Né à Valenciennes, maire de Tourcoing. Ministre des Comptes publics (2017-2020), de l'Intérieur (2020-2024), de la Justice depuis décembre 2024.",
+   "octobre": "Co-porte la loi sur la réparation des dégradations et le projet de loi protection des enfants, réécrit par le Sénat.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Roland Lescure",
+   "role": "Ministre de l'Économie et des Finances",
+   "parti": "Renaissance",
+   "ne": 1966,
+   "parcours": "Économiste et ancien dirigeant financier au Canada. Député des Français d'Amérique du Nord, ministre de l'Industrie 2022-2024, puis de l'Économie depuis octobre 2025.",
+   "octobre": "Auteur du budget de l'État 2027, rejeté par l'Assemblée le 4 novembre (458 voix contre 0).",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "David Amiel",
+   "role": "Ministre de l'Action et des Comptes publics",
+   "parti": "Renaissance",
+   "ne": 1992,
+   "parcours": "Ancien conseiller d'Emmanuel Macron, député de Paris depuis 2024. A remplacé Amélie de Montchalin le 22 février 2026, à 33 ans.",
+   "octobre": "Défend en séance les 43 Md€ d'économies du budget 2027.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Jean-Pierre Farandou",
+   "role": "Ministre du Travail et des Solidarités",
+   "parti": "Sans parti",
+   "ne": 1957,
+   "parcours": "Né à Bordeaux. Toute sa carrière à la SNCF, dont il a été le PDG de 2019 à 2025. Entré au gouvernement en octobre 2025.",
+   "octobre": "Co-porte le budget de la Sécurité sociale, rejeté le 23 octobre.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Stéphanie Rist",
+   "role": "Ministre de la Santé, des Familles, de l'Autonomie",
+   "parti": "Renaissance",
+   "ne": 1973,
+   "parcours": "Médecin rhumatologue à Orléans, députée du Loiret depuis 2017. Ministre depuis octobre 2025.",
+   "octobre": "Porte le budget de la Sécu (Ondam +2 %, 5,1 Md€ d'économies sur les soins) et co-porte la protection des enfants.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Édouard Geffray",
+   "role": "Ministre de l'Éducation nationale",
+   "parti": "Sans parti",
+   "ne": 1978,
+   "parcours": "Haut fonctionnaire (Conseil d'État), ancien directeur général de l'enseignement scolaire. Pas élu.",
+   "octobre": "Face à la mobilisation lycéenne ; +1,2 Md€ annoncés pour son ministère dans le budget 2027.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Jean-Noël Barrot",
+   "role": "Ministre de l'Europe et des Affaires étrangères",
+   "parti": "MoDem",
+   "ne": 1983,
+   "parcours": "Économiste, député des Yvelines. Ministre du Numérique (2022-2024), puis des Affaires étrangères depuis septembre 2024.",
+   "octobre": "Diplomatie ; pas de texte en discussion au Parlement ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Monique Barbut",
+   "role": "Ministre de la Transition écologique",
+   "parti": "Sans parti",
+   "ne": 1956,
+   "parcours": "Ancienne présidente du WWF France et dirigeante d'organisations internationales sur l'environnement. Entrée au gouvernement en octobre 2025.",
+   "octobre": "Pas de texte en discussion ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Annie Genevard",
+   "role": "Ministre de l'Agriculture",
+   "parti": "Les Républicains (dissidente)",
+   "ne": 1956,
+   "parcours": "Ancienne maire de Morteau et députée du Doubs, ex-secrétaire générale des Républicains. Ministre depuis septembre 2024.",
+   "octobre": "Plan d'urgence pour l'agriculture annoncé le 7 octobre ; avantages fiscaux agricoles élargis par les députés le 30 octobre.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Serge Papin",
+   "role": "Ministre des PME, du Commerce et du Pouvoir d'achat",
+   "parti": "Sans parti",
+   "ne": 1955,
+   "parcours": "Ancien PDG des magasins Système U (2005-2018). Entré au gouvernement en octobre 2025.",
+   "octobre": "Le « pacte Papin » du budget 2027 facilite la reprise d'entreprises par les salariés.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Françoise Gatel",
+   "role": "Ministre de l'Aménagement du territoire et de la Décentralisation",
+   "parti": "UDI (centre droit)",
+   "ne": 1953,
+   "parcours": "Ancienne maire de Châteaugiron et sénatrice d'Ille-et-Vilaine. Ministre depuis septembre 2024.",
+   "octobre": "Porte la révision constitutionnelle sur l'autonomie de la Corse, rejetée par le Sénat le 26 octobre.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Philippe Baptiste",
+   "role": "Ministre de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "parti": "Sans parti",
+   "ne": 1972,
+   "parcours": "Ingénieur et chercheur, ancien président du CNES (agence spatiale). Ministre depuis décembre 2024.",
+   "octobre": "Pas de texte en discussion ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Catherine Pégard",
+   "role": "Ministre de la Culture",
+   "parti": "Sans parti",
+   "ne": 1954,
+   "parcours": "Journaliste politique, puis présidente du château de Versailles (2011-2024) et conseillère culture du président. A remplacé Rachida Dati le 26 février 2026.",
+   "octobre": "Pas de texte en discussion ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Naïma Moutchou",
+   "role": "Ministre des Outre-mer",
+   "parti": "Horizons",
+   "ne": 1980,
+   "parcours": "Avocate, députée du Val-d'Oise depuis 2017 et ancienne vice-présidente de l'Assemblée. Ministre depuis octobre 2025.",
+   "octobre": "Concernée par la loi sur l'accès aux soins des Ultramarins (Sénat, 19 octobre).",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Philippe Tabarot",
+   "role": "Ministre des Transports",
+   "parti": "Les Républicains",
+   "ne": 1970,
+   "parcours": "Né à Cannes, ancien sénateur des Alpes-Maritimes spécialiste des transports. Ministre depuis décembre 2024.",
+   "octobre": "Nouvelle taxe sur les grandes infrastructures de transport dans le budget 2027.",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Vincent Jeanbrun",
+   "role": "Ministre de la Ville et du Logement",
+   "parti": "Les Républicains",
+   "ne": 1984,
+   "parcours": "Maire de L'Haÿ-les-Roses (Val-de-Marne), député depuis 2024. Ministre depuis octobre 2025.",
+   "octobre": "Régime fiscal des locations meublées durci dans le budget 2027 ; décret d'accélération des chantiers nucléaires (14 octobre).",
+   "url": "https://www.info.gouv.fr/"
+  },
+  {
+   "nom": "Marina Ferrari",
+   "role": "Ministre des Sports, de la Jeunesse et de la Vie associative",
+   "parti": "MoDem",
+   "ne": 1973,
+   "parcours": "Députée de la Savoie depuis 2022, ancienne secrétaire d'État au Numérique (2024). Ministre depuis octobre 2025.",
+   "octobre": "Pas de texte en discussion ce mois-ci.",
+   "url": "https://www.info.gouv.fr/"
+  }
+ ]
+}

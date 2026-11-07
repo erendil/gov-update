@@ -1,0 +1,107 @@
+{
+ "meta": {
+  "description": "Position de la France dans des classements internationaux, sources officielles ou intergouvernementales uniquement",
+  "sources": [
+   "Eurostat",
+   "OCDE (PISA)",
+   "Commission européenne",
+   "OMPI",
+   "PNUD",
+   "FMI",
+   "Agence France Trésor"
+  ],
+  "licence": "Chiffres publics ; voir les URL du rapport",
+  "genere": "2026-11-07",
+  "colonnes": [
+   "domaine",
+   "classement",
+   "rang_france",
+   "tendance",
+   "edition"
+  ],
+  "non_verifies": [
+   "rang PISA",
+   "résultat de Fitch du 30 octobre 2026",
+   "tendance Eurobaromètre"
+  ]
+ },
+ "data": [
+  {
+   "domaine": "Dette publique / PIB",
+   "classement": "Eurostat, Union européenne (27 pays)",
+   "rang_france": "3e plus endetté (119,1 % du PIB ; UE : 82,9 %), derrière la Grèce (140,8 %) et l'Italie (139,9 %)",
+   "tendance": "En hausse : 117,7 % au 1er trimestre 2026",
+   "edition": "2e trimestre 2026 (provisoire), publié le 21 octobre 2026"
+  },
+  {
+   "domaine": "Notes de crédit",
+   "classement": "Agences de notation, calendrier publié par l'Agence France Trésor",
+   "rang_france": "Moody's : Aa3, perspective négative ; S&P : A+, perspective stable (fin 2025) ; Fitch : non vérifié",
+   "tendance": "Prochaines décisions : Fitch le 30 octobre, S&P le 27 novembre 2026",
+   "edition": "Page de l'Agence France Trésor, 7 novembre 2026"
+  },
+  {
+   "domaine": "Éducation (maths)",
+   "classement": "PISA, OCDE",
+   "rang_france": "458 points (moyenne OCDE : 463) ; rang non vérifié",
+   "tendance": "En baisse : -16 points depuis 2022",
+   "edition": "PISA 2025, publié le 8 septembre 2026"
+  },
+  {
+   "domaine": "Éducation (lecture)",
+   "classement": "PISA, OCDE",
+   "rang_france": "456 points (moyenne OCDE : 461) ; rang non vérifié",
+   "tendance": "En baisse : -18 points depuis 2022",
+   "edition": "PISA 2025"
+  },
+  {
+   "domaine": "Éducation (sciences)",
+   "classement": "PISA, OCDE",
+   "rang_france": "483 points (moyenne OCDE : 482) ; rang non vérifié",
+   "tendance": "Stable : -4 points, écart non significatif",
+   "edition": "PISA 2025"
+  },
+  {
+   "domaine": "Corruption perçue",
+   "classement": "Eurobaromètre, Commission européenne",
+   "rang_france": "77 % des Français jugent la corruption répandue (UE : 71 %)",
+   "tendance": "Tendance France non vérifiée",
+   "edition": "Rapport 2026 sur l'État de droit, 17 juillet 2026"
+  },
+  {
+   "domaine": "Justice",
+   "classement": "Rapport sur l'État de droit, Commission européenne",
+   "rang_france": "56 % du public juge la justice indépendante",
+   "tendance": "Amélioration : 51 % en 2025",
+   "edition": "Rapport 2026, 17 juillet 2026"
+  },
+  {
+   "domaine": "Innovation (Europe)",
+   "classement": "Tableau de bord européen de l'innovation, Commission européenne (27 pays)",
+   "rang_france": "10e, indice 109,1 (UE = 100)",
+   "tendance": "Amélioration : +2,2 points par rapport à 2025",
+   "edition": "Édition 2026, juillet 2026"
+  },
+  {
+   "domaine": "Innovation (monde)",
+   "classement": "Indice mondial de l'innovation, OMPI (ONU)",
+   "rang_france": "13e",
+   "tendance": "En baisse : 12e en 2024",
+   "edition": "Édition 2025"
+  },
+  {
+   "domaine": "Développement humain",
+   "classement": "PNUD (ONU)",
+   "rang_france": "26e, indice 0,920 (année 2023)",
+   "tendance": "Stable : 0,916 en 2022",
+   "edition": "Rapport 2025"
+  },
+  {
+   "domaine": "Économie",
+   "classement": "FMI, consultation 2026 avec la France",
+   "rang_france": "Croissance 0,6 %, déficit 5,2 % du PIB, dette 118,5 % (projections 2026)",
+   "tendance": "Déficit 2025 : 5,1 %",
+   "edition": "22 juillet 2026"
+  }
+ ]
+}

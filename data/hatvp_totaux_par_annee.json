@@ -1,0 +1,19 @@
+{
+ "meta": {
+  "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json",
+  "licence": "Données ouvertes de la HATVP (hatvp.fr)",
+  "genere": "2026-11-07",
+  "description": "Nombre de fiches d'action déclarées par année d'exercice"
+ },
+ "data": {
+  "2018": 946,
+  "2019": 13107,
+  "2020": 12114,
+  "2021": 13396,
+  "2022": 15842,
+  "2023": 18870,
+  "2024": 18771,
+  "2025": 20080,
+  "2026": 422
+ }
+}

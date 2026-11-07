@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs",
+  "licence": "Données ouvertes de l'Assemblée nationale",
+  "genere": "2026-11-07",
+  "periode": "2024-07-20 au 2026-11-04",
+  "regle": "Propositions de loi (dénomination commençant par « Proposition de loi »), comptées pour leur premier signataire, groupe actuel du député.",
+  "description": "Propositions de loi déposées par groupe politique, avec l'effectif du groupe"
+ },
+ "data": [
+  {
+   "groupe": "Droite Républicaine",
+   "sigle": "DR",
+   "deputes": 46,
+   "propositions": 266,
+   "par_depute": 5.8
+  },
+  {
+   "groupe": "La France insoumise - Nouveau Front Populaire",
+   "sigle": "LFI-NFP",
+   "deputes": 70,
+   "propositions": 231,
+   "par_depute": 3.3
+  },
+  {
+   "groupe": "Socialistes et apparentés",
+   "sigle": "SOC",
+   "deputes": 68,
+   "propositions": 173,
+   "par_depute": 2.5
+  },
+  {
+   "groupe": "Union des droites pour la République",
+   "sigle": "UDR",
+   "deputes": 17,
+   "propositions": 151,
+   "par_depute": 8.9
+  },
+  {
+   "groupe": "Écologiste et Social",
+   "sigle": "ECOS",
+   "deputes": 38,
+   "propositions": 142,
+   "par_depute": 3.7
+  },
+  {
+   "groupe": "Ensemble pour la République",
+   "sigle": "EPR",
+   "deputes": 90,
+   "propositions": 133,
+   "par_depute": 1.5
+  },
+  {
+   "groupe": "Rassemblement National",
+   "sigle": "RN",
+   "deputes": 121,
+   "propositions": 131,
+   "par_depute": 1.1
+  },
+  {
+   "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+   "sigle": "LIOT",
+   "deputes": 24,
+   "propositions": 129,
+   "par_depute": 5.4
+  },
+  {
+   "groupe": "Les Démocrates",
+   "sigle": "DEM",
+   "deputes": 37,
+   "propositions": 102,
+   "par_depute": 2.8
+  },
+  {
+   "groupe": "Gauche Démocrate et Républicaine",
+   "sigle": "GDR",
+   "deputes": 17,
+   "propositions": 61,
+   "par_depute": 3.6
+  },
+  {
+   "groupe": "Horizons & Indépendants",
+   "sigle": "HOR",
+   "deputes": 35,
+   "propositions": 49,
+   "par_depute": 1.4
+  },
+  {
+   "groupe": "Non inscrit",
+   "sigle": "NI",
+   "deputes": 11,
+   "propositions": 12,
+   "par_depute": 1.1
+  }
+ ]
+}

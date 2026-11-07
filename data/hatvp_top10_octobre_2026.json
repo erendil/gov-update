@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json",
+  "licence": "Données ouvertes de la HATVP (hatvp.fr)",
+  "genere": "2026-11-07",
+  "description": "Organisations ayant publié le plus de fiches en octobre 2026 : [organisation, catégorie, fiches]"
+ },
+ "data": [
+  [
+   "GROUPEMENT DES HOTELLERIES ET RESTAURATIONS DE FRANCE",
+   "Organisation syndicale et professionnelle",
+   30
+  ],
+  [
+   "COMITE DE LIAISON DES ENTREPRISES AYANT EXERCE LEUR ELIGIBILITE",
+   "Association",
+   28
+  ],
+  [
+   "CERCLE NATIONAL DU RECYCLAGE",
+   "Association",
+   22
+  ],
+  [
+   "BUREAU NATIONAL INTERPR COGNAC",
+   "Autre organisation",
+   19
+  ],
+  [
+   "FONDAMENTAL",
+   "Fondation",
+   18
+  ],
+  [
+   "CONFEDERATION NATIONALE AGRICOLE DES EXPLOITANTS FAMILIAUX MODEF",
+   "Organisation syndicale et professionnelle",
+   18
+  ],
+  [
+   "FEDERATION FRANCAISE DES PRODUCTEURFED FR",
+   "Organisation syndicale et professionnelle",
+   17
+  ],
+  [
+   "REV Mobilities",
+   "Société commerciale et civile (autre que cabinet d’avocats et société de conseil)",
+   17
+  ],
+  [
+   "COMITE REG PECHE MARITIME ELEVAGE MARIN",
+   "Autre organisation",
+   14
+  ],
+  [
+   "SYND GENERAL DES VIGNERONS DE CHAMPAGNE",
+   "Organisation syndicale et professionnelle",
+   13
+  ]
+ ]
+}

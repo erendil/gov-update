@@ -1,0 +1,14 @@
+{
+ "meta": {
+  "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs",
+  "licence": "Données ouvertes de l'Assemblée nationale",
+  "genere": "2026-11-07",
+  "periode": "2024-07-20 au 2026-11-04",
+  "regle": "Propositions de loi (dénomination commençant par « Proposition de loi »), comptées pour leur premier signataire, groupe actuel du député.",
+  "description": "Total des propositions de loi, dont celles d'anciens députés non attribuées à un groupe"
+ },
+ "data": {
+  "total": 1717,
+  "anciens_deputes": 137
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "meta": {
+  "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json",
+  "licence": "Données ouvertes de la HATVP (hatvp.fr)",
+  "genere": "2026-11-07",
+  "description": "Top 20 des organisations par actions déclarées en 2025, séries 2021-2025"
+ },
+ "data": [
+  {
+   "org": "MOUVEMENT DES ENTREPRISES DE FRANCE",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 339,
+    "2022": 293,
+    "2023": 342,
+    "2024": 311,
+    "2025": 355
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "ANTHENOR PUBLIC AFFAIRS",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 148,
+    "2022": 164,
+    "2023": 278,
+    "2024": 294,
+    "2025": 336
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "BOURY TALLON & ASSOCIES",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 228,
+    "2022": 250,
+    "2023": 247,
+    "2024": 244,
+    "2025": 298
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "APF France Handicap",
+   "cat": "Association",
+   "years": {
+    "2021": 25,
+    "2022": 46,
+    "2023": 106,
+    "2024": 115,
+    "2025": 180
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "CONFEDERATION DES PETITES ET MOYENNES ENTREPRISES",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 104,
+    "2022": 80,
+    "2023": 105,
+    "2024": 134,
+    "2025": 174
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "FEDERATION FRANCAISE DE L ASSURANCE (FFA)",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 127,
+    "2022": 201,
+    "2023": 234,
+    "2024": 159,
+    "2025": 172
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "ESL & NETWORK FRANCE SAS",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 6,
+    "2022": 12,
+    "2023": 198,
+    "2024": 166,
+    "2025": 171
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "COMFLUENCE",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 31,
+    "2022": 60,
+    "2023": 93,
+    "2024": 86,
+    "2025": 163
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "COM'PUBLICS",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 97,
+    "2022": 124,
+    "2023": 135,
+    "2024": 127,
+    "2025": 139
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "LYSIOS",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 115,
+    "2022": 137,
+    "2023": 164,
+    "2024": 118,
+    "2025": 127
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "COMMUNICATION & INSTITUTIONS",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 70,
+    "2022": 94,
+    "2023": 98,
+    "2024": 88,
+    "2025": 111
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "SYNDICAT DES ENERGIES RENOUVELABLES",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 50,
+    "2022": 34,
+    "2023": 86,
+    "2024": 78,
+    "2025": 109
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "TADDEO",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 23,
+    "2022": 58,
+    "2023": 89,
+    "2024": 90,
+    "2025": 106
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "AI2P",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 75,
+    "2022": 53,
+    "2023": 97,
+    "2024": 83,
+    "2025": 102
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "CONSEIL NATIONAL DES BARREAUX",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 202,
+    "2022": 83,
+    "2023": 179,
+    "2024": 94,
+    "2025": 101
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "UNION  TRANSPORTS PUBLICS FERROVIAIRES",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 62,
+    "2022": 80,
+    "2023": 80,
+    "2024": 93,
+    "2025": 97
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "KAIROS MSC",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 35,
+    "2022": 43,
+    "2023": 63,
+    "2024": 68,
+    "2025": 87
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "FEDER SYNDICATS EXPLOIT AGRICOL MAYENNE",
+   "cat": "Organisation syndicale et professionnelle",
+   "years": {
+    "2021": 15,
+    "2022": 21,
+    "2023": 25,
+    "2024": 34,
+    "2025": 85
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "GOOGLE FRANCE",
+   "cat": "Société commerciale et civile (autre que cabinet d’avocats et société de conseil)",
+   "years": {
+    "2021": 32,
+    "2022": 50,
+    "2023": 75,
+    "2024": 73,
+    "2025": 82
+   },
+   "oct2026": 0
+  },
+  {
+   "org": "IMAGE 7",
+   "cat": "Cabinet de conseil",
+   "years": {
+    "2021": 43,
+    "2022": 52,
+    "2023": 54,
+    "2024": 73,
+    "2025": 82
+   },
+   "oct2026": 0
+  }
+ ]
+}

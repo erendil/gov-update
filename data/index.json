@@ -1,0 +1,62 @@
+{
+ "description": "Index des fichiers de données (un fichier par type de données)",
+ "genere": "2026-11-07",
+ "politique_sources": "Sources officielles uniquement : État français, Union européenne, OCDE, FMI, ONU.",
+ "fichiers": [
+  {
+   "fichier": "assemblee_propositions_loi_par_groupe.json",
+   "description": "Propositions de loi déposées par groupe politique, avec l'effectif du groupe",
+   "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs"
+  },
+  {
+   "fichier": "assemblee_propositions_loi_top_deputes.json",
+   "description": "Les 20 députés en poste ayant déposé le plus de propositions de loi (premier signataire)",
+   "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs"
+  },
+  {
+   "fichier": "assemblee_propositions_loi_total.json",
+   "description": "Total des propositions de loi, dont celles d'anciens députés non attribuées à un groupe",
+   "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs"
+  },
+  {
+   "fichier": "classements_internationaux.json",
+   "description": "Position de la France dans des classements internationaux, sources officielles ou intergouvernementales uniquement",
+   "source": "Eurostat, OCDE (PISA), Commission européenne, OMPI, PNUD, FMI, Agence France Trésor"
+  },
+  {
+   "fichier": "gouvernement_ministres.json",
+   "description": "Membres du gouvernement (octobre 2026) : poste, parti, année de naissance, parcours, activité du mois",
+   "source": "https://www.info.gouv.fr/ (composition du gouvernement)"
+  },
+  {
+   "fichier": "hatvp_categories_organisations.json",
+   "description": "Catégorie HATVP de chaque organisation : {nom: [code, libellé]}",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "hatvp_publications_par_mois.json",
+   "description": "Fiches publiées par mois (date de publication), depuis novembre 2024",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "hatvp_top10_octobre_2026.json",
+   "description": "Organisations ayant publié le plus de fiches en octobre 2026 : [organisation, catégorie, fiches]",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "hatvp_top20_entreprises.json",
+   "description": "Top 20 des entreprises (catégorie ENTREPRISE) par actions déclarées en 2025, séries 2021-2025",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "hatvp_top20_organisations.json",
+   "description": "Top 20 des organisations par actions déclarées en 2025, séries 2021-2025",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "hatvp_totaux_par_annee.json",
+   "description": "Nombre de fiches d'action déclarées par année d'exercice",
+   "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  }
+ ]
+}

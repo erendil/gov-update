@@ -1,0 +1,152 @@
+{
+ "meta": {
+  "source": "https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs",
+  "licence": "Données ouvertes de l'Assemblée nationale",
+  "genere": "2026-11-07",
+  "periode": "2024-07-20 au 2026-11-04",
+  "regle": "Propositions de loi (dénomination commençant par « Proposition de loi »), comptées pour leur premier signataire, groupe actuel du député.",
+  "description": "Les 20 députés en poste ayant déposé le plus de propositions de loi (premier signataire)"
+ },
+ "data": [
+  {
+   "rang": 1,
+   "depute": "Jean-Luc Warsmann",
+   "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+   "departement": "Ardennes",
+   "propositions": 43
+  },
+  {
+   "rang": 2,
+   "depute": "Christelle D'Intorni",
+   "groupe": "Union des droites pour la République",
+   "departement": "Alpes-Maritimes",
+   "propositions": 41
+  },
+  {
+   "rang": 3,
+   "depute": "Corentin Le Fur",
+   "groupe": "Droite Républicaine",
+   "departement": "Côtes-d'Armor",
+   "propositions": 39
+  },
+  {
+   "rang": 4,
+   "depute": "Stéphane Viry",
+   "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+   "departement": "Vosges",
+   "propositions": 28
+  },
+  {
+   "rang": 5,
+   "depute": "Hadrien Clouet",
+   "groupe": "La France insoumise - Nouveau Front Populaire",
+   "departement": "Haute-Garonne",
+   "propositions": 23
+  },
+  {
+   "rang": 6,
+   "depute": "Philippe Juvin",
+   "groupe": "Droite Républicaine",
+   "departement": "Hauts-de-Seine",
+   "propositions": 19
+  },
+  {
+   "rang": 7,
+   "depute": "Thibault Bazin",
+   "groupe": "Droite Républicaine",
+   "departement": "Meurthe-et-Moselle",
+   "propositions": 19
+  },
+  {
+   "rang": 8,
+   "depute": "Éric Ciotti",
+   "groupe": "Union des droites pour la République",
+   "departement": "Alpes-Maritimes",
+   "propositions": 19
+  },
+  {
+   "rang": 9,
+   "depute": "Alexandra Martin (Alpes-Maritimes)",
+   "groupe": "Droite Républicaine",
+   "departement": "Alpes-Maritimes",
+   "propositions": 17
+  },
+  {
+   "rang": 10,
+   "depute": "Christophe Naegelen",
+   "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+   "departement": "Vosges",
+   "propositions": 17
+  },
+  {
+   "rang": 11,
+   "depute": "Matthieu Bloch",
+   "groupe": "Union des droites pour la République",
+   "departement": "Doubs",
+   "propositions": 17
+  },
+  {
+   "rang": 12,
+   "depute": "Éric Pauget",
+   "groupe": "Droite Républicaine",
+   "departement": "Alpes-Maritimes",
+   "propositions": 17
+  },
+  {
+   "rang": 13,
+   "depute": "Josiane Corneloup",
+   "groupe": "Droite Républicaine",
+   "departement": "Saône-et-Loire",
+   "propositions": 15
+  },
+  {
+   "rang": 14,
+   "depute": "Sophie Ricourt Vaginay",
+   "groupe": "Union des droites pour la République",
+   "departement": "Alpes-de-Haute-Provence",
+   "propositions": 15
+  },
+  {
+   "rang": 15,
+   "depute": "Marc Chavent",
+   "groupe": "Union des droites pour la République",
+   "departement": "Ain",
+   "propositions": 14
+  },
+  {
+   "rang": 16,
+   "depute": "Virginie Duby-Muller",
+   "groupe": "Droite Républicaine",
+   "departement": "Haute-Savoie",
+   "propositions": 14
+  },
+  {
+   "rang": 17,
+   "depute": "Antoine Vermorel",
+   "groupe": "Droite Républicaine",
+   "departement": "Loire",
+   "propositions": 13
+  },
+  {
+   "rang": 18,
+   "depute": "Christophe Blanchet",
+   "groupe": "Les Démocrates",
+   "departement": "Calvados",
+   "propositions": 12
+  },
+  {
+   "rang": 19,
+   "depute": "Violette Spillebout",
+   "groupe": "Ensemble pour la République",
+   "departement": "Nord",
+   "propositions": 12
+  },
+  {
+   "rang": 20,
+   "depute": "François Jolivet",
+   "groupe": "Horizons & Indépendants",
+   "departement": "Indre",
+   "propositions": 11
+  }
+ ]
+}
