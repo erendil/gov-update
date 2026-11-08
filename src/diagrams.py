@@ -247,14 +247,14 @@ def rankchart(H, rows, headers=None, fallback=None):
     H["y"] = yy + 6
 
 
-def hbars(H, title, data, tips=None, color=None, labw=260, fmt=lambda v: f"{v:g}", unit="", sub=None, details=None, fallback=None, trend=None):
+def hbars(H, title, data, tips=None, color=None, labw=260, fmt=lambda v: f"{v:g}", unit="", sub=None, details=None, fallback=None, trend=None, ref=None):
     """Barres horizontales avec infobulle personnalisée par ligne (tips) ; sous-libellé optionnel (sub) par ligne."""
     out, M, CW = H["out"], H["M"], H["CW"]
     INK, INK2, MUTED, AXIS, BLUE = (H[k] for k in ("INK", "INK2", "MUTED", "AXIS", "BLUE"))
     esc = H["esc"]
     y0 = H["y"]
     out.append(f'<text x="{M}" y="{y0 + 14}" font-size="14" font-weight="700" fill="{INK}">{esc(title)}</text>')
-    yy = y0 + 28; plotw = CW - labw - 90 - (280 if trend else 0); vmax = max(v for _, v in data) or 1; bh = 16; gp = 8
+    yy = y0 + 28; plotw = CW - labw - 90 - (280 if trend else 0) - (150 if sub else 0); vmax = max(v for _, v in data) or 1; bh = 16; gp = 8
     for i, (lab, v) in enumerate(data):
         bw = plotw * v / vmax
         c = color(i, lab) if color else BLUE
@@ -280,6 +280,11 @@ def hbars(H, title, data, tips=None, color=None, labw=260, fmt=lambda v: f"{v:g}
             out.append(f'<text x="{sx0 - 5}" y="{yy + 12}" font-size="10" fill="{MUTED}" text-anchor="end">{tv[0]}</text>')
             out.append(f'<text x="{sx0 + sw + 6}" y="{yy + 12}" font-size="10" fill="{INK}">{tv[-1]}</text>')
         yy += bh + gp
+    if ref:
+        rx = M + labw + plotw * ref[0] / vmax
+        out.append(f'<line x1="{rx:.1f}" y1="{y0 + 22}" x2="{rx:.1f}" y2="{yy - gp + 4}" stroke="{INK}" stroke-width="1.5" stroke-dasharray="5 4"/>')
+        out.append(f'<text x="{rx + 5:.1f}" y="{yy + 10}" font-size="11.5" fill="{INK}">{esc(ref[1])}</text>')
+        yy += 16
     if trend:
         out.append(f'<text x="{M + CW - 150}" y="{y0 + 24}" font-size="10.5" fill="{MUTED}">évolution {trend[0][0]} → {trend[0][-1]}</text>')
     out.append(f'<line x1="{M + labw}" y1="{y0 + 24}" x2="{M + labw}" y2="{yy - gp + 2}" stroke="{AXIS}"/>')

@@ -157,20 +157,25 @@ _s = [
 pair("suivre", "Le calendrier des prochaines semaines", lambda: timeline(H, _s, (11, 9), (12, 17), default_month=11, headers=["Date", "Quoi", "Enjeu"]), lambda: table(["Date", "Quoi", "Enjeu"], _s, [1.6, 3.6, 3.8]))
 
 # ---------------------------------------------------------------- 7  QUI BOSSE LE PLUS
-h2("7. Qui travaille le plus ? Propositions de loi par famille politique et par député", simple="Un député peut écrire des propositions de loi. Certains en déposent des dizaines, d'autres presque aucune. Mais déposer beaucoup ne veut pas dire faire adopter : seule 1 proposition sur 20 devient une loi.", sub="Du 20 juillet 2024 au 4 novembre 2026 : 1 717 propositions de loi déposées à l'Assemblée nationale (données ouvertes de l'Assemblée nationale).")
+h2("7. Qui travaille le plus ? Propositions de loi par famille politique et par député", simple="Un député peut écrire des propositions de loi. Pour comparer des groupes de tailles très différentes (17 à 121 députés), on divise le nombre de propositions par le nombre de sièges du groupe. Attention : déposer beaucoup ne veut pas dire faire adopter.", sub="Du 20 juillet 2024 au 4 novembre 2026 : 1 717 propositions de loi déposées à l'Assemblée nationale (données ouvertes de l'Assemblée nationale).")
 SHORT = {'DR': 'Droite républicaine', 'LFI-NFP': 'La France insoumise', 'SOC': 'Socialistes', 'UDR': 'UDR (alliés du RN)', 'ECOS': 'Écologistes', 'EPR': 'Ensemble pour la République', 'RN': 'Rassemblement national', 'LIOT': 'LIOT', 'DEM': 'Démocrates (MoDem)', 'GDR': 'Gauche démocrate et rép.', 'HOR': 'Horizons', 'NI': 'Non inscrits'}
 # calcul officiel : open data de l'Assemblée nationale (7 novembre 2026), premier signataire, groupe actuel
 groups = [(g['groupe_court'] if 'groupe_court' in g else SHORT.get(g['sigle'], g['groupe']), g['deputes'], g['propositions']) for g in data('assemblee_propositions_loi_par_groupe.json')]
-tot = sorted([(g, n) for g, e, n in groups], key=lambda t: -t[1])
-per = sorted([(g, round(n / e, 1)) for g, e, n in groups], key=lambda t: -t[1])
 half = (CW - 30) / 2
-y0 = y
-h_a = hbar_chart("Propositions de loi déposées par groupe", tot, x=M, width=half,
-                 note_txt="Comptées en premier signataire, par groupe actuel du député, du 20 juillet 2024 au 4 novembre 2026 (données ouvertes de l'Assemblée nationale). Les gros groupes dominent en volume.")
-y = y0
-h_b = hbar_chart("Propositions de loi par député, selon le groupe", per, x=M + half + 30, width=half, color=ORANGE, fmt=lambda v: f"{v:.1f}".replace(".", ","),
-                 note_txt="Rapporté à l'effectif, ce sont les petits groupes de droite (UDR, Droite républicaine, LIOT) qui déposent le plus ; le Rassemblement national et Horizons le moins.")
-y = y0 + max(h_a, h_b) + 10
+_seats = sum(e for g, e, n in groups); _props = sum(n for g, e, n in groups); _moy = _props / _seats
+_g = sorted(groups, key=lambda t: -t[2] / t[1])
+_fr = lambda v, d=1: f"{v:.{d}f}".replace(".", ",")
+_grow = [[str(i + 1), g, str(e), str(n), _fr(n / e), _fr(100 * e / _seats, 0) + " %", _fr(100 * n / _props, 0) + " %", "×" + _fr(n / e / _moy)] for i, (g, e, n) in enumerate(_g)]
+_ghead = ["Rang", "Groupe", "Sièges", "Propositions de loi", "Par siège", "Part des sièges", "Part des propositions", "Par rapport à la moyenne"]
+pair("groupes", "Quel groupe est le plus productif ? Propositions de loi par siège",
+     lambda: hbars(H, "Propositions de loi déposées par siège (député en poste)", [(r[1], round(r[3] / r[2], 2) if False else n / e) for r, (g, e, n) in zip(_grow, _g)],
+                   tips=[f"{r[1]} : {r[3]} propositions pour {r[2]} sièges, soit {r[4]} par siège ({r[7]} la moyenne)" for r in _grow],
+                   labw=260, fmt=lambda v: _fr(v), color=lambda i, l: ORANGE if _g[i][2] / _g[i][1] >= _moy else BLUE,
+                   sub=[f"{r[3]} prop. / {r[2]} sièges · {r[7]} moy." for r in _grow],
+                   details=(_ghead, _grow), ref=(_moy, f"moyenne de l'Assemblée : {_fr(_moy)} par siège"),
+                   fallback="https://data.assemblee-nationale.fr/travaux-parlementaires/dossiers-legislatifs"),
+     lambda: table(_ghead, _grow, [0.5, 2.4, 0.8, 1.1, 0.9, 1, 1.1, 1.1], size=12))
+note(f"Lecture : en orange, les groupes au-dessus de la moyenne de l'Assemblée ({_fr(_moy)} propositions par siège). Un petit groupe très actif pèse peu en volume mais beaucoup par siège : l'UDR a 3 % des sièges et dépose près de 10 % des propositions. Comptage en premier signataire, groupe actuel du député, du 20 juillet 2024 au 4 novembre 2026 (données ouvertes de l'Assemblée nationale). Déposer beaucoup ne veut pas dire faire adopter.")
 _top = [r for r in data('assemblee_propositions_loi_top_deputes.json')][:10]
 _gs = {g['groupe']: SHORT.get(g['sigle'], g['groupe']) for g in data('assemblee_propositions_loi_par_groupe.json')}
 _d = [[str(i + 1), _top[i]['depute'], f"{_gs[_top[i]['groupe']]} ({_top[i]['departement']})", str(_top[i]['propositions']),
