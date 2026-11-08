@@ -1,0 +1,59 @@
+{
+ "meta": {
+  "description": "Journal des runs mensuels : pages officielles qui refusent les accès automatiques (ne pas retenter, ne pas contourner) et empreinte de chaque run",
+  "genere": "2026-11-08"
+ },
+ "data": {
+  "pages_en_echec": [
+   {
+    "url": "https://www.info.gouv.fr/ (ex gouvernement.fr)",
+    "erreur": "403, défi Cloudflare",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://www.economie.gouv.fr/",
+    "erreur": "403",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://presse.economie.gouv.fr/",
+    "erreur": "refusé par robots.txt",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://www.legifrance.gouv.fr/",
+    "erreur": "403",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://www.interieur.gouv.fr/",
+    "erreur": "403",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://pm.gouv.fr/",
+    "erreur": "502",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "https://www.aft.gouv.fr/en/frances-credit-ratings",
+    "erreur": "erreur client (la page /fr répond)",
+    "depuis": "2026-11-07"
+   },
+   {
+    "url": "PDF des rapports PISA sur oecd.org",
+    "erreur": "refusé par robots.txt (utiliser gpseducation.oecd.org)",
+    "depuis": "2026-11-07"
+   }
+  ],
+  "empreinte_runs": [
+   {
+    "mois": "2026-10",
+    "electricite_kwh": 1.6,
+    "co2_kg": 0.6,
+    "eau_litres": 1.5,
+    "remarque": "premier rapport, construit en conversation (code écrit de zéro)"
+   }
+  ]
+ }
+}

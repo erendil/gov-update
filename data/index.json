@@ -57,6 +57,11 @@
    "fichier": "hatvp_totaux_par_annee.json",
    "description": "Nombre de fiches d'action déclarées par année d'exercice",
    "source": "https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json"
+  },
+  {
+   "fichier": "journal_runs.json",
+   "description": "Journal des runs mensuels : pages officielles qui refusent les accès automatiques (ne pas retenter, ne pas contourner) et empreinte de chaque run",
+   "source": "runs mensuels"
   }
  ]
 }

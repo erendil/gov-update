@@ -15,5 +15,6 @@ Un fichier JSON par type de données. Chaque fichier a la forme `{"meta": {...},
 | `hatvp_top20_entreprises.json` | Top 20 des entreprises (catégorie ENTREPRISE) par actions déclarées en 2025, séries 2021-2025 | https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json |
 | `hatvp_top20_organisations.json` | Top 20 des organisations par actions déclarées en 2025, séries 2021-2025 | https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json |
 | `hatvp_totaux_par_annee.json` | Nombre de fiches d'action déclarées par année d'exercice | https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json |
+| `journal_runs.json` | Pages en échec et empreinte de chaque run | runs mensuels |
 
 `index.json` liste tous les fichiers. Les fichiers `hatvp_*` et `assemblee_*` sont recalculables avec les scripts de `src/`. Les deux autres sont tenus à la main.
