@@ -202,7 +202,8 @@ page = f'''<!doctype html>
 </div>
 <script>const PEOPLE = {people_json};</script>
 <script>
-(function(){{
+window.initReport = function(PEOPLE){{
+  if (window.__cleanup) window.__cleanup();
   const tip = document.getElementById('tip');
   // Bascule diagramme / tableau
   const setView = (pair, v) => {{
@@ -219,6 +220,8 @@ page = f'''<!doctype html>
     anchors.forEach(a => a.classList.toggle('on', a === cur));
   }};
   window.addEventListener('scroll', onScroll, {{passive: true}}); onScroll();
+  const onKey = e => {{ if (e.key === 'Escape') {{ fiche.classList.remove('on'); }} }};
+  window.__cleanup = () => {{ window.removeEventListener('scroll', onScroll); document.removeEventListener('keydown', onKey); }};
   // Panneau latéral : survol = aperçu, clic = verrouillage
   const escH = t => String(t).replace(/[&<>"]/g, c => ({{'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}}[c]));
   const render = (aside, el0) => {{
@@ -274,7 +277,7 @@ page = f'''<!doctype html>
   document.querySelectorAll('svg .person').forEach(el => el.addEventListener('click', () => openFiche(el.dataset.person)));
   fiche.querySelector('.close').addEventListener('click', () => fiche.classList.remove('on'));
   fiche.querySelectorAll('.nav button').forEach(b => b.addEventListener('click', () => openFiche(names[(cur + parseInt(b.dataset.dir) + names.length) % names.length])));
-  document.addEventListener('keydown', e => {{ if (e.key === 'Escape') {{ fiche.classList.remove('on'); }} }});
+  document.addEventListener('keydown', onKey);
   // Mode quiz : cacher les noms, les révéler au clic
   const qb = document.getElementById('quizbtn');
   qb.addEventListener('click', () => {{
@@ -283,7 +286,8 @@ page = f'''<!doctype html>
     qb.textContent = on ? 'Quiz en cours : cliquez sur un ministre pour révéler son nom (cliquer ici pour arrêter)' : 'Qui est-ce ? (cacher les noms des ministres)';
     if (on) {{ const org = document.querySelector('svg .person'); if (org) org.closest('.blk').scrollIntoView({{behavior: 'smooth'}}); }}
   }});
-}})();
+}};
+initReport(PEOPLE);
 </script>
 </body>
 </html>
